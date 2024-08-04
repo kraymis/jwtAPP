@@ -20,7 +20,7 @@ const Login = () => {
             navigate('/');
         } catch (error) {
             console.error('Login failed:', error.response.data);
-            setError(error.response.data.message || 'An error occurred during login');
+            setError(error.response.data.message || 'An error occurred during true login');
         }
     };
 
